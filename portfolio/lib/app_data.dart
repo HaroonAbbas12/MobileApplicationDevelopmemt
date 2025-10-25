@@ -7,7 +7,7 @@ class AppData {
 
   // Static user data object containing details about the user.
   static const UserData user = UserData(
-    name: 'John Doe',
+    name: 'Haroon Abbas',
     title: 'Flutter Developer & Mobile Enthusiast',
     bio:
         'Passionate about crafting seamless mobile experiences using Flutter. With a background in computer science, I specialize in cross-platform app development, UI/UX design, and integrating modern tech stacks like Firebase and REST APIs.',
@@ -15,37 +15,37 @@ class AppData {
     skills: [
       'Dart',
       'Flutter',
-      'Firebase',
-      'REST APIs',
-      'State Management (Provider/Riverpod)',
+      'Python',
+      'Open AI',
+      'SQL',
       'Git',
       'SQLite',
     ],
     education: [
-      'Bachelor of Science in Computer Science - University of Example (2020-2024)',
-      'Certified Flutter Developer - Google (2023)',
+      'Bachelor in Software Engineering - Riphah International University (2022-2026)',
+      'Certified Flutter Developer - Cisco(2025)',
     ],
   );
 
   // List of projects that will be shown on the Projects page.
   static const List<Project> projects = [
     Project(
-      title: 'TodoMaster Pro',
+      title: 'Ai voice assistant',
       description:
-          'A feature-rich todo list app with offline support, reminders, and cloud sync using Firebase. Built with Flutter for iOS and Android.',
+          'A feature-rich AI vooice assistant using OPen AI and Python',
       imageUrl: 'assets/todomaster.jpg', // Local image
       technologies: ['Flutter', 'Firebase', 'SQLite'], // Tech used in project
-      githubUrl: 'https://github.com/johndoe/todomaster',
+      githubUrl: 'https://github.com/HaroonAbbas12/AI_voice_assistant',
       liveUrl:
           'https://play.google.com/store/apps/details?id=com.example.todomaster',
     ),
     Project(
-      title: 'WeatherWise',
+      title: 'Diabetes Prediction System',
       description:
-          'Real-time weather forecasting app integrating OpenWeatherMap API. Includes location-based forecasts, hourly updates, and a clean Material Design UI.',
+          'Diabetic Prediction System using Python and google colab',
       imageUrl: 'assets/weatherwise.jpg',
       technologies: ['Flutter', 'REST APIs', 'Geolocator'],
-      githubUrl: 'https://github.com/johndoe/weatherwise',
+      githubUrl: 'https://github.com/HaroonAbbas12/AI_voice_assistant',
       liveUrl: '',
     ),
     Project(
@@ -61,12 +61,12 @@ class AppData {
 
   // Contact information section.
   static const ContactInfo contactInfo = ContactInfo(
-    email: 'john.doe@example.com',
-    phone: '+1 234 567 8900',
-    location: 'New York, NY, USA',
-    linkedin: 'https://linkedin.com/in/johndoe',
-    github: 'https://github.com/johndoe',
-    twitter: 'https://twitter.com/johndoe',
+    email: 'haxoonabbas@gmail.com',
+    phone: '+923450623909',
+    location: 'Islamabad ,Pakistan',
+    linkedin: 'https://linkedin.com/in/HaroonAbbas',
+    github: 'https://github.com/HaroonAbbas12',
+    twitter: 'https://twitter.com/HaroonAbbas',
   );
 }
 
